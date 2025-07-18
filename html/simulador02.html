@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador AVL</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Árbol AVL</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="simulador01.html">Árbol Binario</a>
+    <a href="simulador02.html">Árbol AVL</a>
+    <a href="simulador03.html">Splay Tree</a>
+    <a href="simulador04.html">Árbol B</a>
+  </nav>
+
+  <main>
+    <h2>¿Qué es un Árbol AVL?</h2>
+    <p>Es un árbol binario de búsqueda autobalanceado donde la diferencia de altura entre subárboles no puede ser mayor que 1. Se utiliza para mantener tiempos de búsqueda óptimos.</p>
+
+    <input type="number" id="valor" placeholder="Valor a insertar">
+    <button onclick="insertarAVL()">Insertar</button>
+
+    <canvas id="canvas" width="800" height="400"></canvas>
+
+    <br><br>
+    <a href="../archivosJar/simuladorArbolAVL.jar" class="btn-descarga" download>Descargar simulador .jar</a>
+
+  </main>
+
+  <footer>
+   <p>© 2025 - Proyecto Final de EDA </p>
+  </footer>
+
+  <script src="../JavaScript/simulador_AVL.js"></script>
+</body>
+</html>
